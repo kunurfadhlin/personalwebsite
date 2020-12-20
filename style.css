@@ -1,0 +1,83 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+body {
+    background-image: url("images/bulb.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+}
+ .bg-img {
+  /* The image used */ 
+  background-image: url("images/bulb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: center;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 50px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #1a0d00;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #bf8040;
+  text-align: center;
+  padding: 16px 33px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #00000080;
+  color: brown;
+}
+
+  /*Style the header*/
+ .header {
+  background-color: #c68c53;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 62px; 68px;
+  text-align: center;
+  opacity: .9;
+}
+article {
+  font-family: Verdana;
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color: #d2a679;
+  height: 370px; /* height of article col */
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif ;
+  text-align: center;
+  color: white;
+}
+fieldset {
+  background-color: #d2a679;
+  opacity: .8;
+}
+legend {
+  background-color: black;
+  color: black;
+  padding: 10px 10px;
+}
