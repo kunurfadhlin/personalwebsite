@@ -1,0 +1,324 @@
+<html lang="en">
+<head>
+<title>Ku's Family</title>
+<meta charset="utf-8" meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+body {
+    background-image: url("images/bulb.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ .bg-img {
+  /* The image used */ 
+  background-image: url("images/bulb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: center;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 50px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #1a0d00;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #bf8040;
+  text-align: center;
+  padding: 18px 33px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #00000080;
+  color: brown;
+}
+  /*Style the header*/
+ .header {
+  background-color: #c68c53;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 60px; 60px;
+  text-align: center;
+  opacity: .9;
+}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+
+}
+h2 {
+  text-align: center;
+  color: white;}
+
+p{
+  color: white;
+  font-size: 18px;
+  text-align: center;}
+
+</style>
+</head>
+<body>
+<div class="header">
+  <h1><i>Bonjour Everyone! <br>Have a great day ahead! 🌻</i></h1>
+</head>
+<body>
+<div class="bg-img">
+  <div class="container">
+    <div class="topnav">
+      <a href="home.html">Home</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="experience.html">Experience of Life</a>
+      <a href="education.html">Ku's Education</a>
+      <a href="family.html">Ku's Family</a>
+      <a href="gallery.html">Gallery of Mine</a>
+      <a href="favoritetune.html">Ku's Favorite Tune</a>
+    </div><br><br>
+
+ <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="images/me.jpg" style="width:100%">
+  <div class="text">Pasar Seni</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/view2.jpg" style="width:100%">
+  <div class="text">Sabah</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/view1.jpg" style="width:100%">
+  <div class="text">Desa Dairy Farm Sabah</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="images/eventinforma1.jpg" style="width:100%">
+  <div class="text">Informa Club</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script><br>
+
+<h2>Trip Holiday to Sabah</h2>
+<p>January, 2019<br>My whole family were having an amazing trip to Sabah during my semester break. Sabah is a peaceful place with the view and can see their unique culture environment. We have visit with so many places which is Desa Dairy Farm Sabah, Pasar Filipina, Mamutik Island & Manukan Island, Masjid Terapung, Poring Hot Spring & Waterfall and Tagal, Sg Moroli Fish Spa.</p>
+
+<div clas="row">
+<div class="column">
+    <img src="images/sabah4.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/sabah2.jpg" style="width:80%">
+  </div>
+  <div class="column">
+    <img src="images/sabah.jpg" style="width:100%"><br>
+  </div>
+</div><br><br><br><br><br>
+
+<h2>Informa Club</h2>
+<p>Jun, 2019<br> I have joining Informa Club to gain my new experience, and gratefully, I have an opportunity to handle an event with my Informa Club people. It was very a memorable experienced.</p>
+
+<div class="row">
+ <div class="column">
+    <img src="images/event.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/eventinforma.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/informaclub.jpg" style="width:100%">
+  </div>
+</div>
+
+<h2>Pasar Seni with Syazwani</h2>
+<p>September, 2020. <br>This is also one of the great memories that I want to keep forever with my close friends through my Pasar Seni Date things with Wani.</p>
+
+<div class="row">
+ <div class="column">
+    <img src="images/art.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/wani1.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/pasarseni.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
